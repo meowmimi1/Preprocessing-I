@@ -134,3 +134,10 @@ html,
 body {
   height: 100%;
 }
+header nav a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  padding: 2rem;
+  align-items: stretch;
+}
