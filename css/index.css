@@ -134,10 +134,27 @@ html,
 body {
   height: 100%;
 }
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  font-weight: bold;
+}
 header nav a {
   display: flex;
+  flex-wrap: wrap;
   text-decoration: none;
   color: black;
   padding: 2rem;
-  align-items: stretch;
+}
+.img {
+  background: #ff30a2;
+  padding: 30px;
+}
+.img .computer-img {
+  width: 400px;
+  height: 350px;
+}
+.img h1 {
+  font-size: 3rem;
 }
