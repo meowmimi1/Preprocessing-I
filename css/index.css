@@ -158,3 +158,22 @@ header nav a {
 .img h1 {
   font-size: 3rem;
 }
+.img h2 {
+  padding: 20px;
+}
+.img p {
+  padding: 20px;
+}
+.img button {
+  background: gray;
+  padding: 10px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+.main .leftside {
+  display: flex;
+  flex-wrap: wrap;
+}
